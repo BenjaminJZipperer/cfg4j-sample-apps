@@ -11,9 +11,17 @@ public class EngineBean
 	{
 		return this.result;
 	}
+<<<<<<< Updated upstream
 
 	public int i_am_new_whil_benjamin_worked_on_station_on_something_else()
 {
 	return -1000800; // limit in my scope?
 }
+=======
+	//first request User-Story
+	public void setResultA(String engine_status)
+	{
+		this.ENGINE_STATUS = engine_status;
+	}
+>>>>>>> Stashed changes
 }
