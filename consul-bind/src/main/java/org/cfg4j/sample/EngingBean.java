@@ -5,7 +5,7 @@ public class EngineBean
 	private String ENGINE_STATUS = "on_listening";
 	private String NEXT_STATUS = null;
               
-                private String[] result = new String[2]	{ENGINE_STATUS,NEXT_STATUS};
+                private String[] result = {ENGINE_STATUS,NEXT_STATUS};
 
 	public String[] getResults()
 	{
